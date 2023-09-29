@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.twitter-notes {
+    margin-top: 12px;
+}
+
+.notes-search-highlight {
+    font-weight: bold;
+}
+
+.twitter-blue-bg {
+    background-color: #22b3ff;
+}
+
+button.twitter-blue-bg:hover {
+    background-color: #25a0f8;
+}
+
+
+.main-text-color {
+    color: var(--main-color);
+}
+
+
+.main-background-color {
+    background: var(--main-background-color);
+}

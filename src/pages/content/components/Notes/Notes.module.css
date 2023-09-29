@@ -1,0 +1,15 @@
+.noteIcon {
+    color: #83888d;
+}
+
+.noteIcon:hover {
+    color: #1d9bf0;
+}
+
+.expandButton {
+    color: rgb(29, 155, 240);
+}
+
+.noteText a {
+    color: rgb(29, 155, 240);
+}

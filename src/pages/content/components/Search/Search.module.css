@@ -1,0 +1,54 @@
+.results {
+    scrollbar-color: #313337;
+    scrollbar-width: thin;
+}
+
+.selectedResult.dark {
+    background-color: #222428;
+}
+
+.selectedResult.light {
+    background-color: #e6eaeb;
+}
+
+.light.result:hover {
+    background-color: #e6eaeb;
+}
+
+.light.result:focus {
+    background-color: #e6eaeb;
+}
+
+
+.light.result:focus-visible {
+    background-color: #e6eaeb;
+}
+
+.dark.result:hover {
+    background-color: #222428;
+}
+
+.dark.result:focus {
+    background-color: #222428;
+}
+
+
+.dark.result:focus-visible {
+    background-color: #222428;
+}
+
+
+/* Width of the scrollbar */
+.results::-webkit-scrollbar {
+    width: 2px;  /* You can adjust the thickness here */
+}
+
+/* Thumb (the draggable part) of the scrollbar */
+.results::-webkit-scrollbar-thumb {
+    background-color: #313337;
+}
+
+/* Track (the background part) of the scrollbar */
+.results::-webkit-scrollbar-track {
+    background: rgba(0,0,0,0);
+}

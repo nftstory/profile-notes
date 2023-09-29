@@ -1,8 +1,8 @@
 {
-    "name": "solid-chrome-extension-template",
-    "displayName": "Solid Chrome Extension Template",
-    "version": "0.202212.1",
-    "description": "Chrome Extension boilerplate with SolidJS + Vite + ManifestV3",
+    "name": "profiles-notes",
+    "displayName": "Profile Notes",
+    "version": "1.0.0",
+    "description": "Take notes on X / Twitter Profiles",
     "license": "MIT",
     "repository": {
         "type": "git",
@@ -18,7 +18,13 @@
     },
     "type": "module",
     "dependencies": {
-        "solid-js": "^1.6.2"
+        "@leeoniya/ufuzzy": "^1.0.10",
+        "autolinker": "^4.0.0",
+        "localforage": "^1.10.0",
+        "localforage-webextensionstorage-driver": "^3.0.0",
+        "mark.js": "^8.11.1",
+        "solid-js": "^1.6.2",
+        "superstruct": "^1.0.3"
     },
     "devDependencies": {
         "@crxjs/vite-plugin": "2.0.0-beta.7",

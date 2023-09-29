@@ -1,0 +1,1 @@
+export type SavedNote = {name: string, handle: string, note: string, thumbnailURL: string}
