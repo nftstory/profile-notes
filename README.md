@@ -35,3 +35,10 @@ On a profile
 ## Bugs
 
 Please report bugs via this Github's Issues page.
+
+## Credit
+
+A public good by nftstory.
+
+- Product architecture + sponsorship by https://x.com/nnnnicholas
+- Developed by https://github.com/thomasgauthier
