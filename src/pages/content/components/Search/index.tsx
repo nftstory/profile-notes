@@ -1,9 +1,9 @@
-import { modal } from "@src/signals/modalSignal"
-import { search, getLocalForage } from "@src/utils"
-import { createEffect, createSignal } from "solid-js"
-import Mark from 'mark.js';
-import styles from "./Search.module.css";
 import { themeColor } from "@src/signals/color";
+import { modal } from "@src/signals/modalSignal";
+import { getLocalForage, search } from "@src/utils";
+import Mark from 'mark.js';
+import { createEffect, createSignal } from "solid-js";
+import styles from "./Search.module.css";
 
 type SearchResult = Awaited<ReturnType<typeof search>>;
 
@@ -121,11 +121,11 @@ export default () => {
                     if ((event.metaKey || event.ctrlKey)) {
                         const currentSelection = selection()
 
-                        if (event.key == 'k') {
+                        if (event.key == 'j') {
                             moveDown()
                         }
 
-                        if (event.key == 'j') {
+                        if (event.key == 'k') {
                             moveUp()
                         }
                     }
