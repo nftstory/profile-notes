@@ -19,17 +19,24 @@ Export notes to save a backup. Import notes to restore a backup or to import not
 
 ## Keyboard Shortcuts
 
-Anywhere
+### Anywhere
+
 `cmd+k` : Open search modal
 
-Inside search
+### Inside search
+
 `cmd+k` / arrowup : select result above
+
 `cmd+j` / arrowdown : select result below
+
 `enter` : go to selected profile
 
-On a profile
+### On a profile
+
 `cmd+shift+e` : Edit profile note
+
 `cmd+enter` : save note
+
 `escape` : close modal
 
 ## Bugs
