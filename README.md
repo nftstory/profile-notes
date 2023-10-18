@@ -4,7 +4,7 @@ Profile Notes is web browser extension that adds searchable offline notes to X/T
 
 ## Getting Started
 
-1. Install extension
+1. Install extension (Drag directory or zip into Extensions settings page. You may have to turn Developer mode turned on)
 2. Go to a profile on X/Twitter
 3. Click the notepad icon below the profile bio
 4. Enter and save a note
@@ -16,6 +16,13 @@ Export notes to save a backup. Import notes to restore a backup or to import not
 
 1. Click the Extension icon in the browser toolbar.
 2. Import / Export notes database file (`.json`).
+
+## Building from source
+
+1. Clone this repo 
+2. Run `pnpm i`
+3. Run `pnpm vite build`
+4. The `dist/` directory will contain the built extension. You can drag this into your browser's Extensions settings page.
 
 ## Keyboard Shortcuts
 
